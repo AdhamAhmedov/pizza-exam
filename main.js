@@ -89,7 +89,7 @@ for (var i = 0; i < productArr.length; i++) {
     elProductSpan.textContent = productArr[i];
     elProductInput.value = productArr[i];
     elProductInput.type = "checkbox";
-    elProductInput.required = true;
+    // elProductInput.required = true;
 
     elProductLabel.appendChild(elProductSpan);
     elProductLabel.appendChild(elProductInput);
