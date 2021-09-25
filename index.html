@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <title>Pizza</title>
+</head>
+
+<body>
+    <h1 class="text-center p-3 text-secondary ">Pitsa buyurtma qilish</h1>
+
+    <section class="d-flex container-xl js-section">
+
+
+        <form id="btn" method="POST" action="https://echo.htmlacademy.ru" class="border col-8 js-form" method="POST">
+            <div class="js-select-wrapper border">
+                <h4>Noni qanday bo'lsin</h4>
+                <select class="js-form__select"></select>
+            </div>
+
+            <div class="js-size-wrapper border">
+                <h4>Kattaligi</h4>
+            </div>
+
+            <div class="js-product-wrapper border">
+                <h4>Ustiga nima solaylik</h4>
+
+            </div>
+
+            <div class="js-extra-wrapper border">
+                <h4>Qo'shimchalar</h4>
+
+            </div>
+        </form>
+        <!-- ============================================================ -->
+        <div class="border col-4">
+            <h5>Non:
+                <span class="js-select-result"></span>
+            </h5>
+
+            <h5>Kattaligi:
+                <span class="js-size-result"></span>
+            </h5>
+
+            <h5>Ustida</h5>
+            <ul class="js-product-result"></ul>
+
+            <h5>Qo'shimcha</h5>
+            <ul class="js-extra-result"></ul>
+
+            <button form="btn">Buyurtma berish</button>
+        </div>
+    </section>
+
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
