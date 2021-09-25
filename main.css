@@ -1,0 +1,14 @@
+.box{
+    background-image: url(./images/bd570867.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section{
+    background-color: rgba(247, 244, 239, 0.5);
+  
+}
+
+.aa.input{
+/* padding: 20px; */
+}
